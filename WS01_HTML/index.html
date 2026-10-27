@@ -1,14 +1,70 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My First HTML Page</title>
 </head>
 <body>
-    <h1>Tervetulia Hamzan ensimmäiselle sivuilla!</h1>
-    <h2>Seuraavaksi tulen kertomaan teile enemmän itsestäni</h2>
-    <p>Testi</p>
-    
+    <h1>Your Name</h1>
+
+    <p>Hello! I am an IT student learning HTML
+    and web development. I enjoy exploring
+    technology and creating websites.</p>
+
+    <h2>My Photo</h2>
+    <img src="my-photo.jpg"
+         alt="A portrait photo of Your Name"
+         width="250">
+
+    <h2>My Hobbies</h2>
+    <ul>
+        <li>Learning about technology</li>
+        <li>Traveling</li>
+        <li>Creating Websites and Web Applications</li>
+    </ul>
+
+    <h2>My Favorite Website</h2>
+    <a href="https://www.laurea.fi/">
+        Visit Laurea
+    </a>
+
+    <h2>My Courses (Examples)</h2>
+    <table border="1">
+        <tr>
+            <th scope="col">Course</th>
+            <th scope="col">Topic</th>
+        </tr>
+        <tr>
+            <td>HTML Basics</td>
+            <td>Creating web pages</td>
+        </tr>
+        <tr>
+            <td>Programming</td>
+            <td>Learning to code</td>
+        </tr>
+        <tr>
+            <td>IT Project Skills</td>
+            <td>Teamwork and planning</td>
+        </tr>
+    </table>
+
+    <h2>Contact Form</h2>
+    <form action="#" method="get">
+        <label for="name">Name:</label>
+        <input type="text" id="name"
+               name="name" required>
+
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email"
+               name="email" required>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
